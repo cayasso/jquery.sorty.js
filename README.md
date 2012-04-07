@@ -4,7 +4,7 @@ Sorty is a lighweight jQuery plugin that enable a group of DOM elements to be so
 
 Sorty was build out of a need for easy supporting drag sorting on mobile devices with touch events without having to depend on huge libraries out there. 
 
-Even do Sorty was intended for mobile devices it also supports ordinery desktop browsers so feel free to use it for anything.
+Even though Sorty was intended for mobile devices it also supports ordinery desktop browsers so feel free to use it for anything.
 
 This plug-in was build on top of the awesome new and lightweight jquery.pep.js plug-in by Brian Gonzalez (https://github.com/briangonzalez/pep.jquery.js).
 
