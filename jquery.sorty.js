@@ -1,7 +1,7 @@
 /*!
  * Sorty - v0.1.0
  *
- * https://github.com/cayasso/atomy
+ * https://github.com/cayasso/jquery.sorty.js
  * Copyright (c) 2012 Jonathan Brumley <cayasso@gmail.com>
  * Dual licensed under the MIT and GPL licenses.
  * Credits: Jonathan Brumley, Brian Gonzalez (jquery.pep.js)
