@@ -1,7 +1,7 @@
 /*!
  * Sorty - v0.1.0
  *
- * https://github.com/cayasso/jquery.sorty.js
+ * https://github.com/cayasso/atomy
  * Copyright (c) 2012 Jonathan Brumley <cayasso@gmail.com>
  * Dual licensed under the MIT and GPL licenses.
  * Credits: Jonathan Brumley, Brian Gonzalez (jquery.pep.js)
@@ -207,12 +207,12 @@
 
             // fill snap elements
             $this.children().each(function (i, el) {
-
+                $el = $(el);
                 // Push propsto items
                 items.push({
                     height: $el.height(),
                     width: $el.width(),
-                    $el: $(el)
+                    $el: $el
                 });
             });
 
@@ -321,7 +321,7 @@
                 var $el = $(obj.el),
                     pos = $holder.position();
                 $('.'+o.activeClass).removeClass(o.activeClass);
-                $el.css({ position: '', top: '', left: '', zIndex: ''} );
+                $el.css({ position: '', top: '', left: '', zIndex: '', opacity: 1} );
                 $holder.before($el);
                 $holder.detach();
                 setList();
